@@ -1,6 +1,7 @@
 name: PR
 on:
   pull_request: ~
+  push: ~
 jobs:
   comment:
     runs-on: ubuntu-latest
